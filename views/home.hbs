@@ -1,0 +1,29 @@
+<h3>Student Management System</h3>
+
+<p><a href="/adduser" class="addbtn">Add User</a></p>
+
+<table>
+    <thead>
+        <tr>
+            <td>#</td>
+            <td><strong>Name</strong></td>
+            <td><strong>age</strong></td>
+            <td><strong>city</strong></td>
+            <td><strong>Edit</strong></td>
+            <td><strong>Delete</strong></td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each rows}}
+            <tr>
+                <td>{{this.ID}}</td>
+                <td>{{this.NAME}}</td>
+                <td>{{this.AGE}}</td>
+                <td>{{this.CITY}}</td>
+                <td><a href="/edituser/{{this.ID}}" class="edit">Edit</a></td>
+                <td><a href="/deleteuser/{{this.ID}}" class="delete" onclick="return confirm(Are you sure want to delete)">Delete</a></td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+

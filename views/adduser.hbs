@@ -1,0 +1,26 @@
+<h3>Add Student Details</h3>
+
+{{#if msg}}
+<div class="alert">
+{{msg}}
+</div>
+{{/if}}
+
+<form action="/adduser" method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Usernmae">
+    </div>
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="text" name="age" placeholder="Age">
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" name="city" placeholder="City">
+    </div>
+     <div class="form-group">
+       <button type="submit">Save Details</button>
+       <a href="/">View All</a>
+    </div>
+</form>

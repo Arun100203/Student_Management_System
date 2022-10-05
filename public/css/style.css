@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: cadetblue;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin: 0px auto;
+}
+h3{
+    font-size: 25px;
+    color: tomato;
+    padding: 10px;
+    border-bottom: 1px solid wheat;
+    text-align: center;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid grey;
+}
+table thead td{
+    padding : 5px;
+    background-color: lightgrey;
+    color: white;
+}
+table tbody td{
+    padding: 5px;
+}
+.edit,.delete,.addbtn{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    width: 35px;
+    padding: 3px 5px 2px;
+    text-align: center;
+    border-radius: 3px;
+}
+.delete{
+    background-color: red;
+}
+p {
+    text-align: end;
+    padding: 4px;
+}
+.addbtn{
+    background-color: gray;
+    padding: 2px 4px 2px;
+}
+.form-group{
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}
+.form-group label,.form-group input{
+    display: block;
+}
+.form-group input{
+    box-sizing: border-box;
+    box-shadow: 3px;
+    font-size: medium;
+    padding: 4px;
+}
+.form-group button{
+    padding: 3px 5px 3px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-style: italic;
+    color: white;
+    background-color: rgb(157, 93, 216);
+}
+.alert{
+    height: 30px;
+    background: rgb(23, 212, 23);
+    padding: 5px;
+    display: block;
+    border-radius: 3px;
+    color: white;
+}
+.form-group a{
+    text-decoration: none;
+    background: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-style: italic;
+    text-align: center;
+    padding: 2px 5px ;
+    margin-left: 45px;
+}
